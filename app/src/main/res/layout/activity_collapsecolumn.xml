@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".collapsecolumn"
+    android:collapseColumns="1">
+
+
+    <TableRow>
+        <TextView
+            android:text="Column 1"
+            android:background="#dee"/>
+        <TextView
+            android:text="Column 2"
+            android:background="#ede"/>
+        <TextView
+            android:text="Column 3"
+            android:background="#eed"/>
+
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gridview"
+    android:rowCount="2"
+    android:columnCount="3"
+    android:useDefaultMargins="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="row o col o"
+        android:background="#dde"
+        android:layout_gravity="fill_horizontal"
+       />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="row o col 1"
+        android:background="#dee"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="row o col 2"
+        android:background="#dde"
+        android:layout_gravity="fill_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="row 1 col o"
+        android:background="#eee"
+        android:layout_gravity="fill_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="row 2 col o"
+
+        android:background="#dde"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="row 3 col o"
+        android:background="#eee"/>
+
+
+
+
+</GridLayout>
